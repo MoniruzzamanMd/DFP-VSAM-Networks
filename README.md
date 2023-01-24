@@ -21,7 +21,7 @@ We Introduce a simple yet effective network that embeds a novel Discriminative F
 
 Visualization of class-specific and class-agnostic scores on test samples (untrimmed video) of THUMOS14. The bar graph represents the scores.
 These videos contain two different action classes “cricket shot” and “cricket bowling”. The class-specific scores are high for the video segments that are
-related to the corresponding action classes. For seg-20 of video-2, both class-specific scores of “cricket shot” and “cricket bowling” are high, as this video segment contains two actions in the same segment. The most representative video segments are with the high class-agnostic scores, while the less or not relevant video segments are with the low class-agnostic scores.
+related to the corresponding action classes. The most representative video segments are with the high class-agnostic scores, while the less or not relevant video segments are with the low class-agnostic scores.
 
 ## Visualization of our spatial attention over time.
 
