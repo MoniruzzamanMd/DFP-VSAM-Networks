@@ -12,3 +12,20 @@ We Introduce a simple yet effective network that embeds a novel Discriminative F
 
 # Video segment attention model (VSAM).
 ![VSAM](https://user-images.githubusercontent.com/59179258/214441868-0e6b129a-c0c3-4fc9-9518-8b55daa4a504.png)
+
+# Qualitative analysis
+
+## Visualization of our temporal attention.
+
+![temporal_visualization](https://user-images.githubusercontent.com/59179258/214442730-8d1033d2-e182-473d-9661-885efbddfc3a.png)
+
+Visualization of class-specific and class-agnostic scores on test samples (untrimmed video) of THUMOS14. The bar graph represents the scores.
+These videos contain two different action classes “cricket shot” and “cricket bowling”. The class-specific scores are high for the video segments that are
+related to the corresponding action classes. For seg-20 of video-2, both class-specific scores of “cricket shot” and “cricket bowling” are high, as this video segment contains two actions in the same segment. The most representative video segments are with the high class-agnostic scores, while the less or not relevant video segments are with the low class-agnostic scores.
+
+## Visualization of our spatial attention over time.
+
+![spatial_visualization](https://user-images.githubusercontent.com/59179258/214442746-7226c1d9-ef52-4bbc-addf-bdb0454fc435.png)
+
+Our network learns to look at the relevant parts where the action of interest is being performed. The three rows represent “jump” (human-alone), “hug” (humanhuman interaction) and “drink” (human-object interaction), respectively.
+
