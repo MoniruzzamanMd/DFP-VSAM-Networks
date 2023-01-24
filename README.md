@@ -29,3 +29,19 @@ related to the corresponding action classes. The most representative video segme
 
 Our network learns to look at the relevant parts where the action of interest is being performed. The three rows represent “jump” (human-alone), “hug” (humanhuman interaction) and “drink” (human-object interaction), respectively.
 
+# Citation:
+If you find our work useful for your research, please cite our work:
+
+```latex
+@article{moniruzzaman2021human,
+  title={Human Action Recognition by Discriminative Feature Pooling and Video Segment Attention Model},
+  author={Moniruzzaman, Md and Yin, Zhaozheng and He, Zhihai and Qin, Ruwen and Leu, Ming C},
+  journal={IEEE Transactions on Multimedia},
+  volume={24},
+  pages={689--701},
+  year={2021},
+  publisher={IEEE}
+}
+```
+
+
